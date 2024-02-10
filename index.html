@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Html form design</title>
+    
 </head>
 <body>
-    <div class="header">
-        <b>Rajshahi Mohila Polytechnic Institute</b>
-       </div>
-       <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Impact</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Image</a></li>
-            <li><a href="#">Maps</a></li>
-        </ul>
-       </div>
-       <div class="main content">
-        <img src="bird.jpg" alt=""width="637px">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, placeat temporibus explicabo non deserunt dicta inventore optio omnis cupiditate magni maxime magnam ab doloribus tempora reprehenderit earum molestiae. Atque, dignissimos.</p>
-       </div>
-       <div class="end">
-        <b>Design By Nusrat Jahan</b>
-       </div>
+    
+    <form action="">
+        <label for="name"><b>Name :</b></label>
+        <input type="text" name="fullname" required> <br><br>
+        <label for="roll"><b>Roll :</b></label>
+        <input type="number" name="roll"required > <br> <br>
+        <label for="department"><b>Department :</b></label>
+        <input type="checkbox" name="cst">Computer Science & Technology 
+        <input type="checkbox" name="eee">Electrical & Electrnic Engineering 
+        <input type="checkbox" name="cse">Computer Science & Engineering <br><br>
+        <label for=" semester"><b>Semester :</b></label> 
+        <select name="semester"> 
+        <option value="semester">5th semester</option>
+        <option value="semester">4th semester</option>
+        <option value="semester">3rd semester</option>
+        <option value="semester">2nd semester</option>
+        <option value="semester">1st semester</option> 
+        </select> <br> <br>
+        <label for="gender"><b>Gender :</b></label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female <br><br>
+        <label for="gmail"><b>Gmail :</b></label>
+        <input type="gmail" name="gmail" required> <br><br>
+        <label for="password"><b>Password :</b></label>
+        <input type="password" name="password"required> <br><br>
+        <label for="picture"><b>Picture :</b></label>
+        <input type="file" name="picture"><br><br>
+        <label for="date"><b>Date of Birth :</b></label>
+        <input type="date" name="date" required><br><br>
+        <label for="district"><b>District :</b></label>
+        <input type="district" name="district"><br><br>
+        <label for="upazila"><b>Upazila :</b></label>
+        <input type="upazila" name="upazila"><br><br>
+        <label for="Ask your Question"><b>Ask your Question :</b></label><br>
+        <textarea name="question"  cols="40" rows="6"></textarea> <br><br>
+        <input type="reset"><input type="submit" value="Send"> 
 
      
 </body>
